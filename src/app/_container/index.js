@@ -1,0 +1,11 @@
+export { default as Navbar } from "./Navbar";
+export { default as Hero } from "./Hero";
+export { default as Features } from "./Features";
+export { default as WhatSetAparts } from "./WhatSetAparts";
+export { default as Discover } from "./Discover";
+export { default as Book } from "./Book";
+export { default as Approach } from "./Approach";
+export { default as Stories } from "./Stories";
+export { default as Experts } from "./Experts";
+export { default as HomeApp } from "./HomeApp";
+export { default as Footer } from "./Footer";

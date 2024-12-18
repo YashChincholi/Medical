@@ -4,18 +4,34 @@
 
 :root {
   --background: #ffffff;
-  --foreground: #171717;
+  --color-primary: #3a643b;
+  --color-secondry: #fff7e2;
 }
 
-@media (prefers-color-scheme: dark) {
-  :root {
-    --background: #0a0a0a;
-    --foreground: #ededed;
-  }
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
 }
 
 body {
-  color: var(--foreground);
   background: var(--background);
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Roboto", "Barlow", sans-serif;
+}
+
+.custom-gradient {
+  background: linear-gradient(
+    to right,
+    rgba(18, 18, 18, 0.88) 0%,
+    rgba(22, 21, 21, 0.925) 60%,
+    rgba(1, 1, 1, 0) 100%
+  );
+}
+
+.custom-gradient-res {
+  background: linear-gradient(
+    to right,
+    rgba(18, 18, 18, 0.5) 0%,
+    rgba(22, 21, 21, 0.667) 100%
+  );
 }
