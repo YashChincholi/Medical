@@ -34,7 +34,7 @@ function Approach() {
         isPara={true}
       />
       <div className="mt-12 flex sm:px-44 px-8 justify-center items-center sm:gap-4 gap-14 overflow-x-auto sm:overflow-x-hidden snap-x snap-mandatory">
-        <div className="flex space-x-6 px-4">
+        <div className="flex space-x-6 px-4 overflow-x-auto sm:overflow-x-hidden snap-x snap-mandatory">
           {approachItem.map((item, index) => (
             <div
               key={index}

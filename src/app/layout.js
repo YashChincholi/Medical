@@ -1,5 +1,8 @@
 import { Roboto, Barlow } from "next/font/google";
 import "./globals.css";
+import "@fortawesome/fontawesome-svg-core/styles.css";
+import { config } from "@fortawesome/fontawesome-svg-core";
+config.autoAddCss = false; /* Prevent Font Awesome from adding its CSS automatically */
 
 const roboto = Roboto({
   weight: ["400", "700"], // Specify the weights you need
