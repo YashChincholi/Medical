@@ -1,5 +1,6 @@
 import React from "react";
 import DiscoverBox from "../_components/DiscoverBox";
+import Heading from "../_components/Heading";
 
 function Discover() {
   const discoverItem = [
@@ -36,14 +37,11 @@ function Discover() {
   ];
   return (
     <div className=" mt-14 flex flex-col items-center gap-5">
-      <h1 className="text-primary text-3xl text-center sm:text-4xl font-bold underline sm:px-20 px-10">
-        Discover Ayurveda&apos;s magic with us
-      </h1>
-      <p className="text-center sm:max-w-[500px] text-[#666666] text-sm opacity-85 leading-normal sm:px-20 px-10">
-        Ayurvedic treatment aims to balance your body and mind, bringing harmony
-        and vitality. It's like a journey to better health using ancient wisdom,
-        a totally effective approach for a better life.
-      </p>
+      <Heading
+        title="Discover Ayurveda's magic with us"
+        desc="Ayurvedic treatment aims to balance your body and mind, bringing harmony and vitality. It's like a journey to better health using ancient wisdom, a totally effective approach for a better life."
+        isPara={true}
+      />
       <div className="bg-secondry w-full">
         <div className="flex justify-center items-center sm:absolute sm:w-[100%] w-full h-[60%] mt-5 ">
           <div className="relative w-[350px] h-[450px]">
