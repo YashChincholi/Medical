@@ -18,8 +18,8 @@ function Experts() {
           ))}
         </div>
       </div>
-      <div className="mx-[40vw]">
-        <div className="flex justify-center items-center mt-6 bg-green-400 bg-opacity-15 p-3 border border-green-950">
+      <div className="mx-[35vw] xl:mx-[40vw]">
+        <div className="flex justify-center items-center mt-8 text-center md:text-sm text-xs xl:text-lg bg-green-400 bg-opacity-15 p-2 border border-green-950">
           Find More Experts &gt;
         </div>
       </div>
