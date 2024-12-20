@@ -52,8 +52,8 @@ function WhatSetAparts() {
           item.isText ? (
             <TextCard item={item} key={index} />
           ) : (
-            <div key={index}>
-              <img src={item.imgUrl} alt="itemImage" />
+            <div key={index} className="w-full">
+              <img src={item.imgUrl} alt="itemImage" className="w-full" />
             </div>
           )
         )}

@@ -42,7 +42,7 @@ function Discover() {
         desc="Ayurvedic treatment aims to balance your body and mind, bringing harmony and vitality. It's like a journey to better health using ancient wisdom, a totally effective approach for a better life."
         isPara={true}
       />
-      <div className="bg-secondry w-full">
+      <div className="bg-secondry py-20 w-full">
         <div className="flex justify-center items-center sm:absolute sm:w-[100%] w-full h-[60%] mt-5 ">
           <div className="relative w-[350px] h-[450px]">
             <img
