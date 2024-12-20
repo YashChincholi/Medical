@@ -27,12 +27,12 @@ function HomeApp() {
           </h1>
           <div className="flex lg:gap-2 gap-8 mt-5 flex-col lg:flex-row">
             <img
-              src="/playstore.svg"
+              src="./playstore.svg"
               alt="playstore"
               className="object-cover w-full h-full lg:w-[150px] lg:h-[40px]"
             />
             <img
-              src="/appstore.svg"
+              src="./appstore.svg"
               alt="appstore"
               className="object-cover w-full h-full lg:w-[150px] lg:h-[40px]"
             />
@@ -46,7 +46,7 @@ function HomeApp() {
         <div className="hidden lg:block absolute w-10 h-10 p-20 top-[13%] right-[40%] bg-black bg-opacity-15 rounded-full" />
         <div className="hidden lg:block absolute w-10 h-10 p-20 bottom-[14%] right-[8%] bg-black bg-opacity-15 rounded-full" />
         <img
-          src="/iPhone13.svg"
+          src="./iPhone13.svg"
           alt="phone"
           className="relative top-0 h-[450px] w-[450px]"
         />

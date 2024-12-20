@@ -17,7 +17,7 @@ function Hero() {
         id="res"
       >
         <Image
-          src="/HeroR.svg"
+          src="./HeroR.svg"
           alt="Background Image"
           layout="fill"
           objectFit="cover"
@@ -29,7 +29,7 @@ function Hero() {
         id="img"
       >
         <Image
-          src="/Hero.svg"
+          src="./Hero.svg"
           alt="Background Image"
           layout="fill"
           objectFit="cover"

@@ -15,12 +15,12 @@ function Discover() {
         <div className="flex justify-center items-center sm:absolute sm:w-[100%] w-full h-[60%] mt-5 ">
           <div className="relative w-[350px] h-[450px]">
             <img
-              src="/bg.svg"
+              src="./bg.svg"
               alt="background"
               className="absolute inset-0 w-full h-full z-10"
             />
             <img
-              src="/meditationGirl.svg"
+              src="./meditationGirl.svg"
               alt="girl"
               className="absolute inset-0 w-full h-full z-20"
             />

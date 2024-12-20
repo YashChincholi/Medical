@@ -4,12 +4,12 @@ function Book() {
   return (
     <div className="relative mt-20 h-[90vh] w-full flex flex-col items-center justify-center text-center">
       <img
-        src="/book.svg"
+        src="./book.svg"
         alt="background"
         className="object-cover absolute inset-0 w-full h-full z-0 hidden sm:block "
       />
       <img
-        src="/bookr.svg"
+        src="./bookr.svg"
         alt="background"
         className="object-cover absolute inset-0 w-full h-full z-0 sm:hidden block "
       />

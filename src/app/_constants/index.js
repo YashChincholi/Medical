@@ -38,32 +38,32 @@ export const discoverItem = [
   {
     title: "Personalized Wellness",
     desc: "Get treatments made just for you based on your individual doshas ( body type)",
-    imgUrl: "/heartbeat.svg",
+    imgUrl: "./heartbeat.svg",
   },
   {
     title: "Focus on prevention",
     desc: "Stop problems even before they start.",
-    imgUrl: "/ribbon.svg",
+    imgUrl: "./ribbon.svg",
   },
   {
     title: "Mind-Body Connection",
     desc: "Keep your mind and body in sync for a happy life.",
-    imgUrl: "/lotusPosition.svg",
+    imgUrl: "./lotusPosition.svg",
   },
   {
     title: "Holistic Healing",
     desc: "Fix the root problem for long-lasting health.",
-    imgUrl: "/protection.svg",
+    imgUrl: "./protection.svg",
   },
   {
     title: "Natural Remedies",
     desc: "Using herbs and natural therapies for healing.",
-    imgUrl: "/ayurveda.svg",
+    imgUrl: "./ayurveda.svg",
   },
   {
     title: "Boosting immunity",
     desc: "Stay strong and healthy for life, not just for today.",
-    imgUrl: "/strong.svg",
+    imgUrl: "./strong.svg",
   },
 ];
 export const featureItem = [
@@ -113,7 +113,7 @@ export const apartCard = [
   },
   {
     isText: false,
-    imgUrl: "/MaaBeti.svg",
+    imgUrl: "./MaaBeti.svg",
   },
 
   {
@@ -128,7 +128,7 @@ export const apartCard = [
   },
   {
     isText: false,
-    imgUrl: "/jadibuti.svg",
+    imgUrl: "./jadibuti.svg",
   },
 
   {
@@ -138,6 +138,6 @@ export const apartCard = [
   },
   {
     isText: false,
-    imgUrl: "/girl.svg",
+    imgUrl: "./girl.svg",
   },
 ];
