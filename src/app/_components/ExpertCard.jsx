@@ -5,7 +5,7 @@ function ExpertCard() {
   return (
     <div className="flex justify-center items-center flex-col rounded-2xl bg-[#FFF7E2]">
       <div className="relative shadow-sm backdrop-blur-sm ">
-        <img src="/expert.svg" alt="expert" className="relative z-0" />
+        <img src="./expert.svg" alt="expert" className="relative z-0" />
         <div className="flex justify-center items-center gap-2 text-white bg-black px-2 rounded-xl absolute z-10 bottom-0 left-[30%]">
           4.5 <FaStar className="text-xl text-yellow-500" />
         </div>
