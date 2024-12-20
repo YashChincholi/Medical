@@ -43,7 +43,7 @@ function Hero() {
         <h1 className="font-semibold text-2xl sm:text-5xl sm:font-medium sm:leading-snug mb-2">
           Step into Holistic Healing with
           <span className="underline"> Ayurveda</span>
-          <br className="hidden sm:block" /> Book Consultation with certified
+          <br className="hidden lg:block " /> Book Consultation with certified
           Experts.
         </h1>
         <p className="mb-12 text-xs sm:text-xl text-gray-400 leading-snug font-medium">

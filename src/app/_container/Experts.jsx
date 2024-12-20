@@ -18,6 +18,11 @@ function Experts() {
           ))}
         </div>
       </div>
+      <div className="mx-[40vw]">
+        <div className="flex justify-center items-center mt-6 bg-green-400 bg-opacity-15 p-3 border border-green-950">
+          Find More Experts &gt;
+        </div>
+      </div>
     </div>
   );
 }
