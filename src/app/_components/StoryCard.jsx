@@ -1,6 +1,5 @@
 import React from "react";
-import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
-import { faStar } from "@fortawesome/free-solid-svg-icons";
+import { FaStar } from "react-icons/fa";
 
 function StoryCard() {
   return (
@@ -21,11 +20,11 @@ function StoryCard() {
         <p className="text-gray-600 text-sm">17/02/24</p>
       </div>
       <div className="px-4 pb-10 flex gap-2 flex-col">
-        <div>
-          <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-          <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-          <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
-          <FontAwesomeIcon icon={faStar} className="text-yellow-500" />
+        <div className="flex">
+          <FaStar className="text-xl text-yellow-500" />
+          <FaStar className="text-xl text-yellow-500" />
+          <FaStar className="text-xl text-yellow-500" />
+          <FaStar className="text-xl text-yellow-500" />
         </div>
         <p className="font-bold text-2xl">“One of a kind service”</p>
         <p className="text-gray-600 pr-14 text-base">

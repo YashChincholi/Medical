@@ -8,8 +8,10 @@ function HomeApp() {
           id="text"
           className="mb-5 lg:mb-0 md:flex md:justify-center md:flex-col md:items-center lg:block"
         >
-          <h1 className="text-4xl text-primary font-bold">Amrutam Home App</h1>
-          <p className="lg:text-xs text-sm text-gray-500 lg:text-opacity-85 text-center lg:text-left w-[260px] mx-10 lg:mx-0 lg:px-0 lg:w-[450px] mt-2">
+          <h1 className="text-4xl text-primary font-bold text-center">
+            Amrutam Home App
+          </h1>
+          <p className="lg:text-xs text-sm text-gray-500 lg:text-opacity-85 text-center lg:text-left w-full px-8 lg:mx-0 lg:px-0 lg:w-[450px] mt-2">
             The Amrutam Home App is your one-stop app for all things Ayurveda!
             Apart from mimicking the significant characteristics of our website,
             this app offers a wide range of additional features.
