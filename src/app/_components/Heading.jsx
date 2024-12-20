@@ -2,7 +2,7 @@ import React from "react";
 
 function Heading({ title, desc, isPara }) {
   return (
-    <div className="mt-14 flex flex-col items-center gap-5">
+    <div className="my-14 flex flex-col items-center gap-5">
       <h1 className="text-primary text-center text-3xl font-semibold underline sm:px-20 px-10 underline-offset-4">
         {title}
       </h1>
