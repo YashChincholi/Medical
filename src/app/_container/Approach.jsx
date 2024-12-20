@@ -1,31 +1,9 @@
 import React from "react";
 import Heading from "../_components/Heading";
 import ApproachCard from "../_components/ApproachCard";
+import { approachItem } from "../_constants";
 
 function Approach() {
-  const approachItem = [
-    {
-      no: 1,
-      title: "Make Appointment",
-      desc: "You must make an appointment in advance, to choose the service and date.",
-    },
-    {
-      no: 2,
-      title: "Consultations",
-      desc: "The next stage involves a thorough consultation with an Ayurveda practitioner.",
-    },
-    {
-      no: 3,
-      title: "Treatment Planning",
-      desc: "The Ayurvedic practitioner creates a personalized treatment plan for you",
-    },
-    {
-      no: 4,
-      title: "Maintenance",
-      desc: "These visits allow for assessment of progress, adjustments to the treatment.",
-    },
-  ];
-
   return (
     <div>
       <Heading

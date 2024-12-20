@@ -1,33 +1,7 @@
 import React from "react";
-import {
-  FaFacebookF,
-  FaTwitter,
-  FaInstagram,
-  FaYoutube,
-  FaPinterest,
-  FaLinkedinIn,
-} from "react-icons/fa";
+import { icons, informationLinks } from "../_constants";
 
 function Footer() {
-  const icons = [
-    FaFacebookF,
-    FaTwitter,
-    FaInstagram,
-    FaYoutube,
-    FaPinterest,
-    FaLinkedinIn,
-  ];
-
-  const informationLinks = [
-    "About Us",
-    "Terms and Conditions",
-    "Privacy Policy",
-    "Privacy Policy for Mobile Apps",
-    "Shipping and Returns Policy",
-    "International Delivery",
-    "For Businesses, Hotels and Resorts",
-  ];
-
   return (
     <div className="md:p-24 p-10 pb-40 bg-[#DCE3EC] flex sm:justify-center">
       <div className="flex flex-col">

@@ -1,40 +1,9 @@
 import React from "react";
 import DiscoverBox from "../_components/DiscoverBox";
 import Heading from "../_components/Heading";
+import { discoverItem } from "../_constants";
 
 function Discover() {
-  const discoverItem = [
-    {
-      title: "Personalized Wellness",
-      desc: "Get treatments made just for you based on your individual doshas ( body type)",
-      imgUrl: "/heartbeat.svg",
-    },
-    {
-      title: "Focus on prevention",
-      desc: "Stop problems even before they start.",
-      imgUrl: "/ribbon.svg",
-    },
-    {
-      title: "Mind-Body Connection",
-      desc: "Keep your mind and body in sync for a happy life.",
-      imgUrl: "/lotusPosition.svg",
-    },
-    {
-      title: "Holistic Healing",
-      desc: "Fix the root problem for long-lasting health.",
-      imgUrl: "/protection.svg",
-    },
-    {
-      title: "Natural Remedies",
-      desc: "Using herbs and natural therapies for healing.",
-      imgUrl: "/ayurveda.svg",
-    },
-    {
-      title: "Boosting immunity",
-      desc: "Stay strong and healthy for life, not just for today.",
-      imgUrl: "/strong.svg",
-    },
-  ];
   return (
     <div className=" mt-14 flex flex-col items-center gap-5">
       <Heading
